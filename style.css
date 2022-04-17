@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+#clock{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#clockTimeAndDate{
+    display: flex;
+    justify-content: center;
+}
+
+#clockTime{
+    font-size: 70px;
+    color: #d4d41e
+}
+
+#clockDate{
+    font-size: 30px;
+}
+
+#clockAmOrPm{
+    color: #aaaaaa;
+
+}
+
+#styleChanger{
+    width: 100px;
+    height: 20px;
+    color: #000000;
+    font-size: 13px;
+    border: 2px solid #000000;
+    background-color:#e9e9e9;
+}
+
+#alarmSet{
+    color: #000000;
+}
+
+.button{
+    color: #000000;
+}
+#alarmAlertText{
+    padding: 40px;
+    color: #e94040;
+}
+
+#stopwatch{
+    color: #000000
+}
