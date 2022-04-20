@@ -38,7 +38,7 @@ function clock(){
     seconds = addZero(today.getSeconds());
 
     //Get date
-    day = addZero(today.getDay() + 10);
+    day = addZero(today.getDate());
     month = today.getMonth();
     year = today.getFullYear();
 
